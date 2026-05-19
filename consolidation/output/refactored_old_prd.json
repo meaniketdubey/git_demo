@@ -1,0 +1,14 @@
+{
+    "project": "PRD Refactoring",
+    "status": "completed",
+    "records": [
+        {
+            "id": 1,
+            "requirement": "Reduce onboarding steps"
+        },
+        {
+            "id": 2,
+            "requirement": "Improve UX flow"
+        }
+    ]
+}
