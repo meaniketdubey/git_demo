@@ -1,12 +1,11 @@
 {
     "PRD_Redefine_Analysis": {
         "Redefine_Guidelines": [
-            "Product requirements must be measurable and specific; avoid vague statements.",
-            "Do not use 'Equal or better than Predecessor' as a requirement threshold or target.",
-            "Requirements must be customer-facing improvements or visible touchpoints, and insight-driven.",
-            "Functional and experience improvements require measurable metrics.",
-            "Requests for feature/experience/warranty improvements must be routed to function owners (Marketing/GxD/TME) for holistic assessment.",
-            "Do not include best practices or general engineering/process guidelines."
+            "Product requirements must focus on customer-facing improvements and visible touchpoints.",
+            "Requirements must be insight-driven and specific, not referencing 'Equal or better than Predecessor'.",
+            "All functional and experience improvements require measurable metrics.",
+            "Requests for Feature, Experience, and Warranty Improvements must be channeled to Function owners (Marketing/GxD/TME) for holistic assessment.",
+            "Do not include best practices or general engineering/process guidelines in requirements."
         ],
         "PRD_Scope_Rules": {
             "In_Scope_Product_Specific": [
@@ -29,25 +28,25 @@
                 "Requirement": "Documentation",
                 "SharePoint_Owner": "Tech Reg SharePoint",
                 "Owner": "Parvin, Shabeena",
-                "Instruction": "Program Lead to insert a one-liner in PRD referencing the R/S requirement doc rev 1.x and its SharePoint link."
+                "Instruction": "Program Lead inserts one-liner in PRD pointing to the common requirement link."
             },
             {
                 "Requirement": "Regulatory/Safety",
-                "SharePoint_Owner": "Pdt Steward Sharepoint",
+                "SharePoint_Owner": "Pdt Steward SharePoint",
                 "Owner": "Chang, Lee Ming",
-                "Instruction": "Program Lead to insert a one-liner in PRD referencing the E/S requirement doc rev 1.x and its SharePoint link."
+                "Instruction": "Program Lead inserts one-liner in PRD pointing to the common requirement link."
             },
             {
                 "Requirement": "Environmental/Sustainability",
-                "SharePoint_Owner": "Pdt Steward Sharepoint",
+                "SharePoint_Owner": "Pdt Steward SharePoint",
                 "Owner": "Chang, Lee Ming",
-                "Instruction": "Program Lead to insert a one-liner in PRD referencing the E/S requirement doc rev 1.x and its SharePoint link."
+                "Instruction": "Program Lead inserts one-liner in PRD pointing to the common requirement link."
             },
             {
                 "Requirement": "Hardware Reliability",
-                "SharePoint_Owner": "DVAR Sharepoint",
+                "SharePoint_Owner": "DVAR SharePoint",
                 "Owner": "Foo, Shiang Jin",
-                "Instruction": "Program Lead to insert a one-liner in PRD referencing the Reliability Requirement doc rev 1.x and its SharePoint link."
+                "Instruction": "Program Lead inserts one-liner in PRD pointing to the common requirement link."
             }
         ],
         "Categorization_Data": {
@@ -185,18 +184,19 @@
                 "USB Certification",
                 "WeChat Print",
                 "Wifi",
-                "Others",
-                "Must",
-                "High Want",
-                "Want"
+                "Others"
             ]
         },
         "Threshold_Target_Guidelines": {
-            "Challenge": "It's difficult for Quality and Marketing to write technical specs or values for subjective requirements.",
-            "Past_Practice": "Use of vague statements such as 'equal or better than predecessor'.",
-            "Proposal": "State what the customer expects instead of using vague statements; targets and thresholds must be specific and measurable.",
+            "Guidelines": [
+                "Requirement threshold/target needs to be specific and not reference 'Equal or better than Predecessor'.",
+                "State what the customer expects instead of vague statements like 'equal or better than predecessor'.",
+                "Targets should be clear, actionable, and measurable from the customer perspective."
+            ],
             "Example_Case_1_Tire_Mark": {
-                "Requirement_From_Customer_Perspective": "No visible tire mark on photo media.",
+                "Challenge": "It's difficult for Quality and Marketing to write technical specs or values for subjective issues.",
+                "Past_Practice": "Equal or better than predecessor.",
+                "Proposal": "State what the customer expects instead of vague statements.",
                 "Target_Goal": "No visible tire mark.",
                 "Threshold_Acceptable_to_Ship": "Minor tire mark acceptable (metric to be defined with program)."
             }
@@ -212,7 +212,7 @@
             "Documentation & Process (Ops): 'Need R&D to check ELCN BOM structure accuracy'",
             "Documentation & Process (Ops): 'Anchor plot must be ready before PP'",
             "Documentation & Process (Ops): 'Seed code for PP need to be released 1 mth before PP PCA build'",
-            "Design for Manufacturing (Ops): 'Limit to 2 color per product upon SOR. If there is common tool across products, that part is only limited to 2 color.'",
+            "Design for Manufacturing (Ops): 'Limit to 2 color per product upon SOR. If there is common tool across products. That part is only limited to 2 color.'",
             "Design for Manufacturing (Ops): 'Printer USB communication ready within 20 second to optimize the MFG CIMation test time'",
             "Test Setup / Fixture (Ops/DVAR): 'R&D own critical test/assy & characterization fixtures, not only providing test spec.'",
             "Test Setup / Fixture (Ops/DVAR): 'Require Breakaway boards, Extended long FFC cables and Serial Harness cables'",
