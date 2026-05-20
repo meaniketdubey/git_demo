@@ -1,46 +1,52 @@
 {
     "PRD_Redefine_Analysis": {
         "Redefine_Guidelines": [
-            "Product requirements must use specific, measurable metrics for targets and thresholds.",
-            "Do not reference 'Equal or better than Predecessor' in requirement statements.",
-            "All functional and experience improvements must include measurable metrics.",
-            "Requests for Feature, Experience, and Warranty Improvements must be routed to the appropriate Function Owners (Marketing, GxD, TME) for holistic assessment.",
-            "Best practices should not be included as requirements."
+            "Requirements must use specific, measurable threshold/target values and not reference 'Equal or better than Predecessor'.",
+            "Functional and experience improvements require clear, quantifiable metrics.",
+            "Requests for Feature, Experience, and Warranty Improvement must be routed to the appropriate Function owners (Marketing, GxD, TME) for holistic assessment.",
+            "Do not include best practices or general engineering/process standards.",
+            "Requirements must be clearly defined, focusing on customer-facing improvements and insight-driven requirements."
         ],
         "PRD_Scope_Rules": {
             "In_Scope_Product_Specific": [
-                "Performance/Feature requirements specific to the product.",
-                "Quality Improvement & Serviceability unique to the product.",
-                "Telemetry requirements specific to the product.",
-                "Documentation and Process requirements unique to the product.",
-                "Test Setup/Fixture requirements unique to the product.",
-                "Design For Manufacturing requirements unique to the product.",
-                "Cost Reduction requirements unique to the product."
+                "Performance/Feature",
+                "Quality Improvement & Serviceability",
+                "Telemetry",
+                "Documentation and Process",
+                "Test Setup/Fixture",
+                "Design For Manufacturing",
+                "Cost Reduction"
             ],
             "Out_of_Scope_Common_Across_All_Products": [
-                "Safety & Regulatory compliance (common requirements).",
-                "Environment & Sustainability compliance (common requirements).",
-                "HW Reliability (common requirements)."
+                "Safety & Regulatory compliance",
+                "Environment & Sustainability compliance",
+                "HW Reliability"
             ]
         },
         "Extended_Supporting_Documents": [
             {
-                "Requirement": "Regulatory/Safety",
+                "Requirement": "Documentation",
                 "SharePoint_Owner": "Tech Reg SharePoint",
                 "Owner": "Parvin, Shabeena",
-                "Instruction": "Owner’s Program Lead inserts a one-liner in PRD pointing to the Regulatory/Safety requirement SharePoint link."
+                "Instruction": "Owner’s Program Lead inserts one liner in PRD pointing to the common requirement link."
+            },
+            {
+                "Requirement": "Regulatory/Safety",
+                "SharePoint_Owner": "Pdt Steward SharePoint",
+                "Owner": "Chang, Lee Ming",
+                "Instruction": "Owner’s Program Lead inserts one liner in PRD pointing to the common requirement link."
             },
             {
                 "Requirement": "Environmental/Sustainability",
                 "SharePoint_Owner": "Pdt Steward SharePoint",
                 "Owner": "Chang, Lee Ming",
-                "Instruction": "Owner’s Program Lead inserts a one-liner in PRD pointing to the Environmental/Sustainability requirement SharePoint link."
+                "Instruction": "Owner’s Program Lead inserts one liner in PRD pointing to the common requirement link."
             },
             {
                 "Requirement": "Hardware Reliability",
-                "SharePoint_Owner": "DVAR SharePoint",
+                "SharePoint_Owner": "DVAR Sharepoint",
                 "Owner": "Foo, Shiang Jin",
-                "Instruction": "Owner’s Program Lead inserts a one-liner in PRD pointing to the Hardware Reliability requirement SharePoint link."
+                "Instruction": "Owner’s Program Lead inserts one liner in PRD pointing to the common requirement link."
             }
         ],
         "Categorization_Data": {
@@ -98,13 +104,18 @@
                 {
                     "Category": "Reliability",
                     "Functions": [
-                        "Tech Reg"
+                        "DVAR"
+                    ]
+                },
+                {
+                    "Category": "Tech Reg",
+                    "Functions": [
+                        "Marketing"
                     ]
                 },
                 {
                     "Category": "Safety & Regulatory",
                     "Functions": [
-                        "Marketing",
                         "Product Steward"
                     ]
                 },
@@ -185,9 +196,9 @@
             ]
         },
         "Threshold_Target_Guidelines": {
-            "Challenge": "It is difficult for Quality and Marketing to write technical specs or values for subjective requirements.",
-            "Past_Practice": "Use of vague statements like 'equal or better than predecessor'.",
-            "Proposal": "State what the customer expects instead of vague statements. Targets and thresholds should be clear and actionable.",
+            "Challenge": "It is difficult for Quality and Marketing to write technical specs or values for some requirements.",
+            "Past_Practice": "Use of vague statements such as 'equal or better than predecessor'.",
+            "Proposal": "State what the customer expects instead of vague statements; define measurable target and threshold.",
             "Example_Case_1_Tire_Mark": {
                 "Requirement_From_Customer_Perspective": "No visible tire mark on photo media.",
                 "Target_Goal": "No visible tire mark.",
