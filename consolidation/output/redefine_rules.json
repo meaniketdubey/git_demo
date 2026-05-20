@@ -1,12 +1,20 @@
 {
     "PRD_Redefine_Analysis": {
+        "Redefine_Guidelines": [
+            "Product Requirements must focus on customer-facing improvements and visible touchpoints.",
+            "Requirements must be insight-driven and measurable.",
+            "Threshold/Target must be specific and not reference to 'Equal or better than Predecessor'.",
+            "Functional and experience improvements require measurable metrics.",
+            "Channel requests for Feature requirement/Experience & Warranty Improvement must be routed to Function owners (Marketing/GxD/TME) for holistic assessment.",
+            "Do not include best practices in requirements."
+        ],
         "PRD_Scope_Rules": {
             "In_Scope_Product_Specific": [
                 "Performance/Feature",
                 "Quality Improvement & Serviceability",
                 "Telemetry",
                 "Documentation and Process",
-                "Test Setup /Fixture",
+                "Test Setup/Fixture",
                 "Design For Manufacturing",
                 "Cost Reduction"
             ],
@@ -21,34 +29,26 @@
                 "Requirement": "Documentation",
                 "SharePoint_Owner": "Tech Reg SharePoint",
                 "Owner": "Parvin, Shabeena",
-                "Instruction": "This product needs to meet R/S requirement doc rev 1.x , refer to Sharepoint link ……"
+                "Instruction": "This product needs to meet R/S requirement doc rev 1.x, refer to SharePoint link."
             },
             {
                 "Requirement": "Regulatory/Safety",
-                "SharePoint_Owner": "Pdt Steward Sharepoint",
+                "SharePoint_Owner": "Pdt Steward SharePoint",
                 "Owner": "Chang, Lee Ming",
-                "Instruction": "This product needs to meet E/S requirement doc rev 1.x , refer to Sharepoint link ……"
+                "Instruction": "This product needs to meet E/S requirement doc rev 1.x, refer to SharePoint link."
             },
             {
                 "Requirement": "Environmental/Sustainability",
-                "SharePoint_Owner": "Pdt Steward Sharepoint",
+                "SharePoint_Owner": "Pdt Steward SharePoint",
                 "Owner": "Chang, Lee Ming",
-                "Instruction": "This product needs to meet E/S requirement doc rev 1.x , refer to Sharepoint link ……"
+                "Instruction": "This product needs to meet E/S requirement doc rev 1.x, refer to SharePoint link."
             },
             {
                 "Requirement": "Hardware Reliability",
-                "SharePoint_Owner": "DVAR Sharepoint",
+                "SharePoint_Owner": "DVAR SharePoint",
                 "Owner": "Foo, Shiang Jin",
-                "Instruction": "This product needs to meet Reliability Requirement doc rev 1.x , refer to Sharepoint link ……"
+                "Instruction": "This product needs to meet Reliability Requirement doc rev 1.x, refer to SharePoint link."
             }
-        ],
-        "Redefine_Guidelines": [
-            "Product requirements must be clearly defined, focusing on customer-facing improvements and visible touchpoints.",
-            "Requirements must be insight-driven.",
-            "Requirement threshold/target needs to be specific and not reference to 'Equal or better than Predecessor'.",
-            "Functional and experience improvements require measurable metrics.",
-            "Requests for Feature requirement/Experience & Warranty Improvement must be routed to Function owners (Marketing/GxD/TME) for holistic assessment.",
-            "Do not include best practices in PRD."
         ],
         "Categorization_Data": {
             "Predefined_Categories_and_Requesting_Functions": [
@@ -110,15 +110,9 @@
                     ]
                 },
                 {
-                    "Category": "Tech Reg",
-                    "Functions": [
-                        "Marketing"
-                    ]
-                },
-                {
                     "Category": "Safety & Regulatory",
                     "Functions": [
-                        "Product Steward"
+                        "Tech Reg"
                     ]
                 },
                 {
@@ -174,8 +168,7 @@
                 "Media Size",
                 "Media Support",
                 "Monthly Recommended Print volume",
-                "S&O",
-                "OS support",
+                "S&OOS support",
                 "Output paper tray",
                 "Packaging",
                 "Print Quality",
@@ -196,9 +189,9 @@
             ]
         },
         "Threshold_Target_Guidelines": {
-            "Challenge": "It's difficult for Quality and Marketing to write technical specs or values for subjective requirements.",
-            "Past_Practice": "Equal or better than predecessor.",
-            "Proposal": "State what the customer expects instead of vague statements like equal or better than predecessor.",
+            "Challenge": "It is difficult for Quality and Marketing to write technical specs or values for certain requirements.",
+            "Past_Practice": "Use of vague statements such as 'equal or better than predecessor'.",
+            "Proposal": "State what the customer expects instead of vague statements. Targets and thresholds must be clear and measurable.",
             "Example_Case_1_Tire_Mark": {
                 "Requirement_From_Customer_Perspective": "No visible tire mark on photo media.",
                 "Target_Goal": "No visible tire mark.",
@@ -206,29 +199,26 @@
             }
         },
         "Examples_of_Out_of_Scope_Classification": [
-            "Documentation & Process_from Ops: 'Expect all new first set fixtures & specs to be done by LP, latest MP. Not into PP/SOR'",
-            "Documentation & Process_from Ops: 'R&D to provide Ops clear process spec, expectation & what are needed before build'",
-            "Documentation & Process_from Ops: 'All DFA issue must be closed with path forward before PP build'",
-            "Documentation & Process_from Ops: 'ECLN pre-frozen for RoHS RCD by PP-8wks'",
-            "Documentation & Process_from Ops: 'R&D to work with MPa on CCC waivers (If ship to China)'",
-            "Documentation & Process_from Ops: 'R&D to work with ship/test respective stakeholder (if in China) to provide scrap documentation with photos within 3 mths'",
-            "Documentation & Process_from Ops: 'Need to include EE BOM in ELCN especially the “Flash“ tab'",
-            "Documentation & Process_from Ops: 'Need R&D to check ELCN BOM structure accuracy'",
-            "Documentation & Process_from Ops: 'Anchor plot must be ready before PP'",
-            "Documentation & Process_from Ops: 'Seed code for PP need to be released 1 mth before PP PCA build'",
-            "Design for Manufacturing_from Ops: 'Limit to 2 color per product upon SOR . If there is common tool across products. That part is only limited to 2 color.'",
-            "Design for Manufacturing_from Ops: 'Printer USB communication ready within 20 second to optimize the MFG CIMation test time'",
-            "Test Setup / Fixture_from Ops/DVAR: 'R&D own critical test/assy & characterization fixtures, not only providing test spec.'",
-            "Test Setup / Fixture_from Ops/DVAR: 'Require Breakaway boards, Extended long FFC cables and Serial Harness cables'",
-            "Test Setup / Fixture_from Ops/DVAR: '0.5m/1m Control Panel FFC for test setup'",
-            "Cost Reduction_from Ops: 'Remove LDV -> 4HC, Accept PQ to be same as predecessor'",
-            "Cost Reduction_from Ops: 'No Boot Time increase, ~$250k fixture adder for every extra 20secs, 4HC to operate LDV / PPR / PVT / MLT'",
-            "Cost Reduction_from Ops: 'Reduce Power cord length (1.5m to 1m)'",
-            "Cost Reduction_from Ops: 'Reduce all USB cable length (1.5 to 1m)'",
-            "Cost Reduction_from Ops: 'Avoid glossy surface finish, to eliminate protective film (CP Film WIP + Scanner base)']}}},",
-            "branch=",
-            "main"
+            "Documentation & Process: 'Expect all new first set fixtures & specs to be done by LP, latest MP. Not into PP/SOR'",
+            "Documentation & Process: 'R&D to provide Ops clear process spec, expectation & what are needed before build'",
+            "Documentation & Process: 'All DFA issue must be closed with path forward before PP build'",
+            "Documentation & Process: 'ECLN pre-frozen for RoHS RCD by PP-8wks'",
+            "Documentation & Process: 'R&D to work with MPa on CCC waivers (If ship to China)'",
+            "Documentation & Process: 'R&D to work with ship/test respective stakeholder (if in China) to provide scrap documentation with photos within 3 mths'",
+            "Documentation & Process: 'Need to include EE BOM in ELCN especially the “Flash“ tab'",
+            "Documentation & Process: 'Need R&D to check ELCN BOM structure accuracy'",
+            "Documentation & Process: 'Anchor plot must be ready before PP'",
+            "Documentation & Process: 'Seed code for PP need to be released 1 mth before PP PCA build'",
+            "Design for Manufacturing: 'Limit to 2 color per product upon SOR. If there is common tool across products. That part is only limited to 2 color.'",
+            "Design for Manufacturing: 'Printer USB communication ready within 20 second to optimize the MFG CIMation test time'",
+            "Test Setup / Fixture: 'R&D own critical test/assy & characterization fixtures, not only providing test spec.'",
+            "Test Setup / Fixture: 'Require Breakaway boards, Extended long FFC cables and Serial Harness cables'",
+            "Test Setup / Fixture: '0.5m/1m Control Panel FFC for test setup'",
+            "Cost Reduction: 'Remove LDV -> 4HC, Accept PQ to be same as predecessor'",
+            "Cost Reduction: 'No Boot Time increase, ~$250k fixture adder for every extra 20secs, 4HC to operate LDV / PPR / PVT / MLT'",
+            "Cost Reduction: 'Reduce Power cord length (1.5m to 1m)'",
+            "Cost Reduction: 'Reduce all USB cable length (1.5 to 1m)'",
+            "Cost Reduction: 'Avoid glossy surface finish, to eliminate protective film (CP Film WIP + Scanner base)'"
         ]
-    },
-    "branch": "main"
+    }
 }
