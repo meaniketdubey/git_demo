@@ -26,7 +26,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "Reduce the number of product references/names presented to the customer on 123.hp.com for the HP OJP 9010 series to a single, unified reference.",
+            "Cleaned_Requirement_Text": "The product reference names shown to customers on 123.hp.com should be consolidated so that only one name/reference is used for the HP OfficeJet Pro 9010 series, to minimize confusion and user errors.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -55,7 +55,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "Printer must operate reliably with all current and new EM (Evaluation Media) and market segment media, meeting intervention specifications and minimum print quality standards for each region under all relevant climatic conditions.",
+            "Cleaned_Requirement_Text": "The printer must reliably print on all new and current EM (Evaluation Media) and market segment media, meeting minimum print quality (PQ) acceptable by region and passing intervention rate requirements under relevant climatic conditions.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -84,7 +84,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The printer must function reliably when placed on uneven surfaces (e.g., sofa, table cloth, carpet) without causing input tray sensor flag breakage or similar failures.",
+            "Cleaned_Requirement_Text": "The printer must operate reliably when placed on uneven surfaces (such as sofas, table cloths, or carpets) without causing breakage of the input tray sensor flag or similar mechanical failures.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -113,7 +113,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "Assess printer functionality when tilted left and right by 20 degrees during printing; the printer should not experience functional failures under these conditions.",
+            "Cleaned_Requirement_Text": "The printer should be evaluated for functional failures when tilted left and right up to 20 degrees during printing (as per CISS product test), to determine if it meets customer requirements.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
@@ -142,7 +142,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The printer must print reliably when placed on a trolley, with no print quality issues observed during operation.",
+            "Cleaned_Requirement_Text": "The printer must be able to print while placed on a trolley without any print quality (PQ) issues, in accordance with standard UBT requirements.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         }
