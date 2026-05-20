@@ -1,0 +1,225 @@
+{
+    "PRD_Redefine_Analysis": {
+        "Redefine_Guidelines": [
+            "Product requirements must focus on customer-facing improvements and visible touchpoints.",
+            "Requirements must be insight-driven and measurable.",
+            "Do not reference 'Equal or better than Predecessor' in requirement thresholds or targets.",
+            "Functional and experience improvements require specific, measurable metrics.",
+            "Channel requests for feature, experience, or warranty improvements to the appropriate function owners (Marketing, GxD, TME) for holistic assessment.",
+            "Do not include best practices or general engineering/process guidelines."
+        ],
+        "PRD_Scope_Rules": {
+            "In_Scope_Product_Specific": [
+                "Performance/Feature requirements specific to the product.",
+                "Quality Improvement & Serviceability unique to the product.",
+                "Telemetry (product-specific data collection).",
+                "Documentation and Process related to the product.",
+                "Test Setup/Fixture specific to the product.",
+                "Design For Manufacturing for the specific product.",
+                "Cost Reduction that applies to the product."
+            ],
+            "Out_of_Scope_Common_Across_All_Products": [
+                "Safety & Regulatory compliance (common requirements).",
+                "Environment & Sustainability compliance (common requirements).",
+                "Hardware Reliability (common requirements)."
+            ]
+        },
+        "Extended_Supporting_Documents": [
+            {
+                "Requirement": "Documentation",
+                "SharePoint_Owner": "Tech Reg SharePoint",
+                "Owner": "Parvin, Shabeena",
+                "Instruction": "Owner’s Program Lead inserts a one-liner in PRD pointing to the common requirement link."
+            },
+            {
+                "Requirement": "Regulatory/Safety",
+                "SharePoint_Owner": "Pdt Steward SharePoint",
+                "Owner": "Chang, Lee Ming",
+                "Instruction": "Owner’s Program Lead inserts a one-liner in PRD pointing to the common requirement link."
+            },
+            {
+                "Requirement": "Environmental/Sustainability",
+                "SharePoint_Owner": "Pdt Steward SharePoint",
+                "Owner": "Chang, Lee Ming",
+                "Instruction": "Owner’s Program Lead inserts a one-liner in PRD pointing to the common requirement link."
+            },
+            {
+                "Requirement": "Hardware Reliability",
+                "SharePoint_Owner": "DVAR Sharepoint",
+                "Owner": "Foo, Shiang Jin",
+                "Instruction": "Owner’s Program Lead inserts a one-liner in PRD pointing to the common requirement link."
+            }
+        ],
+        "Categorization_Data": {
+            "Predefined_Categories_and_Requesting_Functions": [
+                {
+                    "Category": "Performance/Feature",
+                    "Functions": [
+                        "Marketing",
+                        "GXD"
+                    ]
+                },
+                {
+                    "Category": "Solution",
+                    "Functions": [
+                        "Marketing",
+                        "GXD",
+                        "Quality"
+                    ]
+                },
+                {
+                    "Category": "Experience",
+                    "Functions": [
+                        "Marketing",
+                        "GXD"
+                    ]
+                },
+                {
+                    "Category": "Design/UI",
+                    "Functions": [
+                        "GXD"
+                    ]
+                },
+                {
+                    "Category": "Warranty Improvement",
+                    "Functions": [
+                        "Quality"
+                    ]
+                },
+                {
+                    "Category": "Supportability & Serviciablity",
+                    "Functions": [
+                        "Quality",
+                        "Marketing",
+                        "R&D",
+                        "Ops",
+                        "Supply"
+                    ]
+                },
+                {
+                    "Category": "Telemetry",
+                    "Functions": [
+                        "DVAR"
+                    ]
+                },
+                {
+                    "Category": "Reliability",
+                    "Functions": [
+                        "Tech Reg"
+                    ]
+                },
+                {
+                    "Category": "Safety & Regulatory",
+                    "Functions": [
+                        "Marketing",
+                        "Product Steward"
+                    ]
+                },
+                {
+                    "Category": "Environmental & Sustainability",
+                    "Functions": [
+                        "Marketing",
+                        "BA",
+                        "SIE",
+                        "Supply"
+                    ]
+                },
+                {
+                    "Category": "Security & Privacy",
+                    "Functions": [
+                        "All"
+                    ]
+                },
+                {
+                    "Category": "Others (To Be classified)",
+                    "Functions": [
+                        "To be defined by Program"
+                    ]
+                }
+            ],
+            "Sub_Categories_Flat_List": [
+                "Accessibility",
+                "ADF Speed",
+                "ADF Life",
+                "Borderless",
+                "Connectivity",
+                "Control Panel",
+                "Copy Speed",
+                "CPP",
+                "Customer Experience",
+                "Print Speed",
+                "Customer Support",
+                "Demo Page",
+                "DerivativeID",
+                "Durability",
+                "Duty Cycle",
+                "Environmental Ecolabel",
+                "Environmental Leadership",
+                "Environmental - Energy Efficiency",
+                "Environmental - Compliance",
+                "Front USB",
+                "Go to market",
+                "HFE/UI",
+                "HW Spec",
+                "Ink Level Gas gauge",
+                "Input tray capacity",
+                "Instant Ink",
+                "Mech Life",
+                "Media Size",
+                "Media Support",
+                "Monthly Recommended Print volume",
+                "S&OOS support",
+                "Output paper tray",
+                "Packaging",
+                "Print Quality",
+                "Reduce factory complexity",
+                "Reliability",
+                "robustness",
+                "Scan Speed",
+                "Sensors",
+                "Serviceability",
+                "Solutions",
+                "Supplies Reliability",
+                "Support",
+                "Support Experience",
+                "USB Certification",
+                "WeChat Print",
+                "Wifi",
+                "Others"
+            ]
+        },
+        "Threshold_Target_Guidelines": {
+            "Guideline": "Requirement thresholds and targets must be specific, measurable, and avoid vague statements such as 'equal or better than predecessor'.",
+            "Challenge": "It is difficult for Quality and Marketing to write technical specs or values for subjective requirements.",
+            "Past_Practice": "Use of 'equal or better than predecessor' as requirement.",
+            "Proposal": "State what the customer expects instead of vague statements. Example:",
+            "Example_Case_1_Tire_Mark": {
+                "Requirement_From_Customer_Perspective": "No visible tire mark on photo media.",
+                "Target_Goal": "No visible tire mark.",
+                "Threshold_Acceptable_to_Ship": "Minor tire mark acceptable (metric to be defined with program)."
+            }
+        },
+        "Examples_of_Out_of_Scope_Classification": [
+            "Documentation & Process: 'Expect all new first set fixtures & specs to be done by LP, latest MP. Not into PP/SOR'",
+            "Documentation & Process: 'R&D to provide Ops clear process spec, expectation & what are needed before build'",
+            "Documentation & Process: 'All DFA issue must be closed with path forward before PP build'",
+            "Documentation & Process: 'ECLN pre-frozen for RoHS RCD by PP-8wks'",
+            "Documentation & Process: 'R&D to work with MPa on CCC waivers (If ship to China)'",
+            "Documentation & Process: 'R&D to work with ship/test respective stakeholder (if in China) to provide scrap documentation with photos within 3 mths'",
+            "Documentation & Process: 'Need to include EE BOM in ELCN especially the “Flash“ tab'",
+            "Documentation & Process: 'Need R&D to check ELCN BOM structure accuracy'",
+            "Documentation & Process: 'Anchor plot must be ready before PP'",
+            "Documentation & Process: 'Seed code for PP need to be released 1 mth before PP PCA build'",
+            "Design for Manufacturing: 'Limit to 2 color per product upon SOR. If there is common tool across products. That part is only limited to 2 color.'",
+            "Design for Manufacturing: 'Printer USB communication ready within 20 second to optimize the MFG CIMation test time'",
+            "Test Setup / Fixture: 'R&D own critical test/assy & characterization fixtures, not only providing test spec.'",
+            "Test Setup / Fixture: 'Require Breakaway boards, Extended long FFC cables and Serial Harness cables'",
+            "Test Setup / Fixture: '0.5m/1m Control Panel FFC for test setup'",
+            "Cost Reduction: 'Remove LDV -> 4HC, Accept PQ to be same as predecessor'",
+            "Cost Reduction: 'No Boot Time increase, ~$250k fixture adder for every extra 20secs, 4HC to operate LDV / PPR / PVT / MLT'",
+            "Cost Reduction: 'Reduce Power cord length (1.5m to 1m)'",
+            "Cost Reduction: 'Reduce all USB cable length (1.5 to 1m)'",
+            "Cost Reduction: 'Avoid glossy surface finish, to eliminate protective film (CP Film WIP + Scanner base)'"
+        ]
+    }
+}
