@@ -1,27 +1,26 @@
 {
     "PRD_Redefine_Analysis": {
         "Redefine_Guidelines": [
-            "Product requirements must be clearly defined, measurable, and focus on customer-facing improvements and visible touchpoints.",
-            "Requirements must be insight-driven and specific; avoid vague terms such as 'Equal or better than Predecessor'.",
-            "Threshold/Target must be measurable and actionable; do not use relative or comparative statements.",
-            "Functional and experience improvements require quantifiable metrics.",
-            "Channel requests for Feature/Experience & Warranty Improvements to respective Function owners (Marketing/GxD/TME) for holistic assessment.",
-            "Do not include general best practices or engineering process standards."
+            "Product requirements must be clearly defined, customer-facing, and based on insight-driven needs.",
+            "Requirement thresholds and targets must be specific, measurable, and must not reference 'Equal or better than Predecessor'.",
+            "All functional and experience improvements require measurable metrics.",
+            "Do not include best practices or general process/engineering guidelines.",
+            "Feature/Experience & Warranty Improvement requests must be routed to function owners (Marketing/GxD/TME) for holistic assessment."
         ],
         "PRD_Scope_Rules": {
             "In_Scope_Product_Specific": [
-                "Performance/Feature improvements",
+                "Performance/Feature",
                 "Quality Improvement & Serviceability",
                 "Telemetry",
-                "Documentation and Process (Product-specific)",
-                "Test Setup / Fixture (Product-specific)",
-                "Design for Manufacturing (Product-specific)",
-                "Cost Reduction (Product-specific)"
+                "Documentation and Process",
+                "Test Setup / Fixture",
+                "Design For Manufacturing",
+                "Cost Reduction"
             ],
             "Out_of_Scope_Common_Across_All_Products": [
-                "Safety & Regulatory compliance (common across all products)",
-                "Environment & Sustainability compliance (common across all products)",
-                "Hardware Reliability (common across all products)"
+                "Safety & Regulatory compliance",
+                "Environment & Sustainability compliance",
+                "HW Reliability"
             ]
         },
         "Extended_Supporting_Documents": [
@@ -29,25 +28,25 @@
                 "Requirement": "Documentation",
                 "SharePoint_Owner": "Tech Reg SharePoint",
                 "Owner": "Parvin, Shabeena",
-                "Instruction": "Owner’s Program Lead inserts a one-liner in PRD pointing to the common requirement SharePoint link."
+                "Instruction": "Program Lead inserts a one-liner in PRD pointing to the R/S requirement doc rev 1.x SharePoint link."
             },
             {
                 "Requirement": "Regulatory/Safety",
                 "SharePoint_Owner": "Pdt Steward SharePoint",
                 "Owner": "Chang, Lee Ming",
-                "Instruction": "Owner’s Program Lead inserts a one-liner in PRD pointing to the common requirement SharePoint link."
+                "Instruction": "Program Lead inserts a one-liner in PRD pointing to the E/S requirement doc rev 1.x SharePoint link."
             },
             {
                 "Requirement": "Environmental/Sustainability",
                 "SharePoint_Owner": "Pdt Steward SharePoint",
                 "Owner": "Chang, Lee Ming",
-                "Instruction": "Owner’s Program Lead inserts a one-liner in PRD pointing to the common requirement SharePoint link."
+                "Instruction": "Program Lead inserts a one-liner in PRD pointing to the E/S requirement doc rev 1.x SharePoint link."
             },
             {
                 "Requirement": "Hardware Reliability",
                 "SharePoint_Owner": "DVAR SharePoint",
                 "Owner": "Foo, Shiang Jin",
-                "Instruction": "Owner’s Program Lead inserts a one-liner in PRD pointing to the common requirement SharePoint link."
+                "Instruction": "Program Lead inserts a one-liner in PRD pointing to the Reliability Requirement doc rev 1.x SharePoint link."
             }
         ],
         "Categorization_Data": {
@@ -77,7 +76,6 @@
                 {
                     "Category": "Design/UI",
                     "Functions": [
-                        "Marketing",
                         "GXD"
                     ]
                 },
@@ -105,12 +103,6 @@
                 },
                 {
                     "Category": "Reliability",
-                    "Functions": [
-                        "Quality"
-                    ]
-                },
-                {
-                    "Category": "Tech Reg",
                     "Functions": [
                         "Tech Reg"
                     ]
@@ -199,9 +191,9 @@
             ]
         },
         "Threshold_Target_Guidelines": {
-            "Challenge": "It is difficult for Quality and Marketing to write technical specs or values for subjective requirements.",
+            "Challenge": "It is difficult for Quality and Marketing to write technical specs or values for subjective issues.",
             "Past_Practice": "Use of vague statements like 'equal or better than predecessor'.",
-            "Proposal": "State what the customer expects instead of vague statements; make requirements measurable and actionable.",
+            "Proposal": "State what the customer expects instead of vague statements. Use specific, actionable, measurable requirements.",
             "Example_Case_1_Tire_Mark": {
                 "Requirement_From_Customer_Perspective": "No visible tire mark on photo media.",
                 "Target_Goal": "No visible tire mark.",
