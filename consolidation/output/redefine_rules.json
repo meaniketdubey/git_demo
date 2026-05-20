@@ -1,11 +1,12 @@
 {
     "PRD_Redefine_Analysis": {
         "Redefine_Guidelines": [
-            "Requirements must be measurable and specific; avoid vague terms like 'equal or better than predecessor'.",
-            "All functional and experience improvements require measurable metrics.",
-            "Do not include best practices or general engineering/process standards.",
-            "Requests for Feature, Experience, or Warranty Improvement must be routed to Function owners (Marketing/GxD/TME) for holistic assessment.",
-            "Requirement threshold/target must be specific and actionable, not relative to previous generations."
+            "Requirements must be customer-facing improvements or visible touchpoints.",
+            "Requirements must be insight-driven.",
+            "Requirement thresholds/targets must be specific and measurable, not references like 'Equal or better than Predecessor'.",
+            "Functional and experience improvements require measurable metrics.",
+            "Channel requests for Feature, Experience, and Warranty Improvement must be routed to Function owners (Marketing, GxD, TME) for holistic assessment.",
+            "Do not include best practices or general engineering/process guidelines."
         ],
         "PRD_Scope_Rules": {
             "In_Scope_Product_Specific": [
@@ -13,7 +14,7 @@
                 "Quality Improvement & Serviceability",
                 "Telemetry",
                 "Documentation and Process",
-                "Test Setup / Fixture",
+                "Test Setup/Fixture",
                 "Design For Manufacturing",
                 "Cost Reduction"
             ],
@@ -28,19 +29,25 @@
                 "Requirement": "Documentation",
                 "SharePoint_Owner": "Tech Reg SharePoint",
                 "Owner": "Parvin, Shabeena",
-                "Instruction": "Program Lead must insert a one-liner in the PRD pointing to the R/S requirement doc rev 1.x on the respective SharePoint link."
+                "Instruction": "Owner’s Program Lead inserts one liner in PRD pointing to the common requirement link (refer to SharePoint)."
             },
             {
                 "Requirement": "Regulatory/Safety",
                 "SharePoint_Owner": "Pdt Steward SharePoint",
                 "Owner": "Chang, Lee Ming",
-                "Instruction": "Program Lead must insert a one-liner in the PRD pointing to the E/S requirement doc rev 1.x on the respective SharePoint link."
+                "Instruction": "Owner’s Program Lead inserts one liner in PRD pointing to the common requirement link (refer to SharePoint)."
             },
             {
                 "Requirement": "Environmental/Sustainability",
+                "SharePoint_Owner": "Pdt Steward SharePoint",
+                "Owner": "Chang, Lee Ming",
+                "Instruction": "Owner’s Program Lead inserts one liner in PRD pointing to the common requirement link (refer to SharePoint)."
+            },
+            {
+                "Requirement": "Hardware Reliability",
                 "SharePoint_Owner": "DVAR SharePoint",
                 "Owner": "Foo, Shiang Jin",
-                "Instruction": "Program Lead must insert a one-liner in the PRD pointing to the Reliability Requirement doc rev 1.x on the respective SharePoint link."
+                "Instruction": "Owner’s Program Lead inserts one liner in PRD pointing to the common requirement link (refer to SharePoint)."
             }
         ],
         "Categorization_Data": {
@@ -74,12 +81,6 @@
                     ]
                 },
                 {
-                    "Category": "Quality",
-                    "Functions": [
-                        "Quality"
-                    ]
-                },
-                {
                     "Category": "Warranty Improvement",
                     "Functions": [
                         "Quality"
@@ -103,12 +104,6 @@
                 },
                 {
                     "Category": "Reliability",
-                    "Functions": [
-                        "Quality"
-                    ]
-                },
-                {
-                    "Category": "Tech Reg",
                     "Functions": [
                         "Tech Reg"
                     ]
@@ -173,7 +168,8 @@
                 "Media Size",
                 "Media Support",
                 "Monthly Recommended Print volume",
-                "S&OOS support",
+                "S&O",
+                "OS support",
                 "Output paper tray",
                 "Packaging",
                 "Print Quality",
@@ -197,9 +193,9 @@
             ]
         },
         "Threshold_Target_Guidelines": {
-            "Challenge": "Quality and Marketing find it difficult to write technical specs/values for subjective requirements.",
-            "Past_Practice": "Equal or better than predecessor.",
-            "Proposal": "State what the customer expects instead of vague statements; define measurable target and threshold.",
+            "Challenge": "It is difficult for Quality and Marketing to write technical specs or values for subjective requirements.",
+            "Past_Practice": "Use of vague statements such as 'equal or better than predecessor'.",
+            "Proposal": "State what the customer expects instead of vague statements.",
             "Example_Case_1_Tire_Mark": {
                 "Requirement_From_Customer_Perspective": "No visible tire mark on photo media.",
                 "Target_Goal": "No visible tire mark.",
@@ -215,7 +211,6 @@
             "Documentation & Process (Ops): 'R&D to work with ship/test respective stakeholder (if in China) to provide scrap documentation with photos within 3 mths'",
             "Documentation & Process (Ops): 'Need to include EE BOM in ELCN especially the “Flash“ tab'",
             "Documentation & Process (Ops): 'Need R&D to check ELCN BOM structure accuracy'",
-            "Documentation & Process (Ops): 'R&D to provide Ops clear process spec, expectation & what are needed before build'",
             "Documentation & Process (Ops): 'Anchor plot must be ready before PP'",
             "Documentation & Process (Ops): 'Seed code for PP need to be released 1 mth before PP PCA build'",
             "Design for Manufacturing (Ops): 'Limit to 2 color per product upon SOR. If there is common tool across products. That part is only limited to 2 color.'",
