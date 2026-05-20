@@ -1,12 +1,14 @@
 {
     "PRD_Redefine_Analysis": {
         "Redefine_Guidelines": [
-            "Requirements must be customer-facing improvements or visible touchpoints.",
-            "Requirements must be insight-driven.",
-            "Requirement thresholds/targets must be specific and measurable, not references like 'Equal or better than Predecessor'.",
+            "Product requirements must be clearly defined, focusing on customer-facing improvements and visible touchpoints.",
+            "Requirements must be insight-driven and product-specific (Performance/Feature, Quality Improvement & Serviceability, Telemetry).",
+            "Requirement threshold/target must be specific and must not reference 'Equal or better than Predecessor'.",
             "Functional and experience improvements require measurable metrics.",
-            "Channel requests for Feature, Experience, and Warranty Improvement must be routed to Function owners (Marketing, GxD, TME) for holistic assessment.",
-            "Do not include best practices or general engineering/process guidelines."
+            "Channel requests for Feature Requirement/Experience & Warranty Improvement to Function owners (Marketing/GxD/TME) for holistic assessment.",
+            "Do not include best practices.",
+            "Human to check (to make sure it's correctly categorized or needs to be routed to the appropriate worksheet).",
+            "Offline conversation to preserve info and route to correct forum."
         ],
         "PRD_Scope_Rules": {
             "In_Scope_Product_Specific": [
@@ -14,7 +16,7 @@
                 "Quality Improvement & Serviceability",
                 "Telemetry",
                 "Documentation and Process",
-                "Test Setup/Fixture",
+                "Test Setup / Fixture",
                 "Design For Manufacturing",
                 "Cost Reduction"
             ],
@@ -29,25 +31,25 @@
                 "Requirement": "Documentation",
                 "SharePoint_Owner": "Tech Reg SharePoint",
                 "Owner": "Parvin, Shabeena",
-                "Instruction": "Owner’s Program Lead inserts one liner in PRD pointing to the common requirement link (refer to SharePoint)."
+                "Instruction": "This product needs to meet R/S requirement doc rev 1.x, refer to SharePoint link ……"
             },
             {
                 "Requirement": "Regulatory/Safety",
                 "SharePoint_Owner": "Pdt Steward SharePoint",
                 "Owner": "Chang, Lee Ming",
-                "Instruction": "Owner’s Program Lead inserts one liner in PRD pointing to the common requirement link (refer to SharePoint)."
+                "Instruction": "This product needs to meet E/S requirement doc rev 1.x, refer to SharePoint link ……"
             },
             {
                 "Requirement": "Environmental/Sustainability",
                 "SharePoint_Owner": "Pdt Steward SharePoint",
                 "Owner": "Chang, Lee Ming",
-                "Instruction": "Owner’s Program Lead inserts one liner in PRD pointing to the common requirement link (refer to SharePoint)."
+                "Instruction": "This product needs to meet E/S requirement doc rev 1.x, refer to SharePoint link ……"
             },
             {
                 "Requirement": "Hardware Reliability",
                 "SharePoint_Owner": "DVAR SharePoint",
                 "Owner": "Foo, Shiang Jin",
-                "Instruction": "Owner’s Program Lead inserts one liner in PRD pointing to the common requirement link (refer to SharePoint)."
+                "Instruction": "This product needs to meet Reliability Requirement doc rev 1.x, refer to SharePoint link ……"
             }
         ],
         "Categorization_Data": {
@@ -168,8 +170,7 @@
                 "Media Size",
                 "Media Support",
                 "Monthly Recommended Print volume",
-                "S&O",
-                "OS support",
+                "S&OOS support",
                 "Output paper tray",
                 "Packaging",
                 "Print Quality",
@@ -186,16 +187,13 @@
                 "USB Certification",
                 "WeChat Print",
                 "Wifi",
-                "Others",
-                "Must",
-                "High Want",
-                "Want"
+                "Others"
             ]
         },
         "Threshold_Target_Guidelines": {
-            "Challenge": "It is difficult for Quality and Marketing to write technical specs or values for subjective requirements.",
-            "Past_Practice": "Use of vague statements such as 'equal or better than predecessor'.",
-            "Proposal": "State what the customer expects instead of vague statements.",
+            "Challenge": "It's difficult for Quality and Marketing to write technical specs or values for subjective requirements.",
+            "Past_Practice": "Use of vague statements like 'equal or better than predecessor'.",
+            "Proposal": "State what the customer expects instead of vague statements; use specific, actionable, and measurable requirements.",
             "Example_Case_1_Tire_Mark": {
                 "Requirement_From_Customer_Perspective": "No visible tire mark on photo media.",
                 "Target_Goal": "No visible tire mark.",
@@ -222,7 +220,7 @@
             "Cost Reduction (Ops): 'No Boot Time increase, ~$250k fixture adder for every extra 20secs, 4HC to operate LDV / PPR / PVT / MLT'",
             "Cost Reduction (Ops): 'Reduce Power cord length (1.5m to 1m)'",
             "Cost Reduction (Ops): 'Reduce all USB cable length (1.5 to 1m)'",
-            "Cost Reduction (Ops): 'Avoid glossy surface finish, to eliminate protective film (CP Film WIP + Scanner base)'"
+            "Cost Reduction (Ops): 'Avoid glossy surface finish, to eliminate protective film (CP Film WIP + Scanner base)']}}},"
         ]
     }
 }
