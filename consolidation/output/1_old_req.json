@@ -4,10 +4,10 @@
         {
             "No": 1,
             "Requestor": "Celine Taccori",
-            "Department_Requestor": "Design",
+            "Department": "Design",
             "Category": "Customer Experience",
             "Requirement": "OOBE - reduce number of steps : 123.hp.com :",
-            "Additional_Comments_Information": "Is there a reason to have 3 names for the same reference ? HP OJP 9010 All-in-one Printer series HP OJP 9010e All-in-One Printer series HP OJP 9010 All-in-One Printer Have too many names isn't efficient and can induce user errors",
+            "Additional_Comments": "Is there a reason to have 3 names for the same reference ? HP OJP 9010 All-in-one Printer series HP OJP 9010e All-in-One Printer series HP OJP 9010 All-in-One Printer Have too many names isn't efficient and can induce user errors",
             "Threshold_Accept": "two names / reference are proposed currently 4 references for Office Jet Pro 9010",
             "Goal_Design_Target": "Only one name / reference is proposed to customer",
             "Priority": "MUST",
@@ -26,17 +26,17 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The customer-facing website (123.hp.com) must display only one consistent product name/reference for the HP OfficeJet Pro 9010 series to avoid confusion and user errors.",
+            "Cleaned_Requirement_Text": "The product reference naming on 123.hp.com must be consolidated so that only a single, unique name is presented to the customer for each product, specifically for the HP OJP 9010 series.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
         {
             "No": 2,
             "Requestor": "Chong, Shin",
-            "Department_Requestor": "HDRV",
+            "Department": "HDRV",
             "Category": "Reliability",
             "Requirement": "Printer able to run all new/current EM / market segment media ",
-            "Additional_Comments_Information": "Printer to meet intervention spec for the different media and climatic conditions for Manhattan platform.",
+            "Additional_Comments": "Printer to meet intervention spec for the different media and climatic conditions for Manhattan platform.",
             "Threshold_Accept": "Minimum PQ acceptable by region",
             "Goal_Design_Target": "Pass intervention rate and NO PQ issue",
             "Priority": "MUST",
@@ -55,17 +55,17 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The printer must reliably print on all new and current EM (Evaluation Media) and market segment media, meeting regional minimum print quality standards and intervention specifications under all specified climatic conditions for the Manhattan platform.",
+            "Cleaned_Requirement_Text": "The printer must operate reliably and meet intervention specifications for all new and current EM (Electromechanical) and market segment media types under various climatic conditions, matching or exceeding the Manhattan platform baseline.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
         {
             "No": 3,
             "Requestor": "Chong, Shin",
-            "Department_Requestor": "HDRV",
+            "Department": "HDRV",
             "Category": "Reliability",
             "Requirement": "Product can be placed and work on uneven surface ( sofa , table cloth , carpet …) ",
-            "Additional_Comments_Information": "As the complain on Vasari , input tray sensor flag broken when printer is placed on uneven surfact , this issue should be fixed in new product",
+            "Additional_Comments": "As the complain on Vasari , input tray sensor flag broken when printer is placed on uneven surfact , this issue should be fixed in new product",
             "Threshold_Accept": "Meet customer requirement ",
             "Goal_Design_Target": "Meet customer  requirement ",
             "Priority": "MUST",
@@ -84,17 +84,17 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The printer must function correctly without breaking the input tray sensor flag when placed and used on uneven surfaces such as sofas, table cloths, or carpets.",
+            "Cleaned_Requirement_Text": "The printer must function correctly without damage or operational failure when placed and used on uneven surfaces such as sofas, tablecloths, or carpets. The input tray sensor flag must not break under these conditions.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
         {
             "No": 4,
             "Requestor": "Chong, Shin",
-            "Department_Requestor": "HDRV",
+            "Department": "HDRV",
             "Category": "Reliability",
             "Requirement": "Tilt left and right each while printing",
-            "Additional_Comments_Information": "To assess whether there is any functional failure if customer tilt the printer during printing.(Sayan tilt left and right each at 20 degree while printing )",
+            "Additional_Comments": "To assess whether there is any functional failure if customer tilt the printer during printing.(Sayan tilt left and right each at 20 degree while printing )",
             "Threshold_Accept": "Meet customer  requirement ",
             "Goal_Design_Target": "Meet customer  requirement ",
             "Priority": "MUST",
@@ -113,17 +113,17 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The printer should be assessed for functional failures when tilted left or right up to 20 degrees during printing.",
+            "Cleaned_Requirement_Text": "The printer should be evaluated for any functional failure when tilted left or right by 20 degrees during printing, as per Sayan protocol.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         },
         {
             "No": 5,
             "Requestor": "Chong, Shin",
-            "Department_Requestor": "HDRV",
+            "Department": "HDRV",
             "Category": "Reliability",
             "Requirement": "Put printer on trolley and print",
-            "Additional_Comments_Information": "To check if there is PQ issue when printer print on trolley.",
+            "Additional_Comments": "To check if there is PQ issue when printer print on trolley.",
             "Threshold_Accept": "Meet customer  requirement ",
             "Goal_Design_Target": "Meet customer  requirement ",
             "Priority": "MUST",
@@ -142,7 +142,7 @@
                 "Marconi Hi",
                 "Marconi PDL Hi Specific"
             ],
-            "Cleaned_Requirement_Text": "The printer must print without print quality issues when placed and operated on a trolley.",
+            "Cleaned_Requirement_Text": "The printer must be able to print without print quality (PQ) issues when placed on a trolley.",
             "Ambiguity_Flag": "NO",
             "Reason_for_Ambiguity": ""
         }
