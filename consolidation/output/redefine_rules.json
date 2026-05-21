@@ -1,12 +1,14 @@
 {
     "PRD_Redefine_Analysis": {
         "Redefine_Guidelines": [
-            "Product Requirements must focus on customer-facing improvements and visible touchpoints.",
+            "Product requirements must be customer-facing improvements or visible touchpoints.",
             "Requirements must be insight-driven and measurable.",
-            "Threshold/Target must be specific and not reference to 'Equal or better than Predecessor'.",
+            "Requirement threshold/target needs to be specific and not reference 'Equal or better than Predecessor'.",
             "Functional and experience improvements require measurable metrics.",
-            "Channel requests for Feature requirement/Experience & Warranty Improvement must be routed to Function owners (Marketing/GxD/TME) for holistic assessment.",
-            "Do not include best practices in requirements."
+            "Channel requests for Feature/Experience & Warranty Improvement to Function owners (Marketing/GxD/TME) for holistic assessment.",
+            "Do not include best practices.",
+            "Do not use vague statements like 'equal or better than predecessor'.",
+            "Avoid including general engineering or process best practices."
         ],
         "PRD_Scope_Rules": {
             "In_Scope_Product_Specific": [
@@ -14,7 +16,7 @@
                 "Quality Improvement & Serviceability",
                 "Telemetry",
                 "Documentation and Process",
-                "Test Setup/Fixture",
+                "Test Setup / Fixture",
                 "Design For Manufacturing",
                 "Cost Reduction"
             ],
@@ -29,25 +31,19 @@
                 "Requirement": "Documentation",
                 "SharePoint_Owner": "Tech Reg SharePoint",
                 "Owner": "Parvin, Shabeena",
-                "Instruction": "This product needs to meet R/S requirement doc rev 1.x, refer to SharePoint link."
+                "Instruction": "Program Lead must insert a one-liner in PRD referencing the R/S requirement doc and SharePoint link."
             },
             {
                 "Requirement": "Regulatory/Safety",
-                "SharePoint_Owner": "Pdt Steward SharePoint",
+                "SharePoint_Owner": "Pdt Steward Sharepoint",
                 "Owner": "Chang, Lee Ming",
-                "Instruction": "This product needs to meet E/S requirement doc rev 1.x, refer to SharePoint link."
+                "Instruction": "Program Lead must insert a one-liner in PRD referencing the E/S requirement doc and SharePoint link."
             },
             {
                 "Requirement": "Environmental/Sustainability",
-                "SharePoint_Owner": "Pdt Steward SharePoint",
-                "Owner": "Chang, Lee Ming",
-                "Instruction": "This product needs to meet E/S requirement doc rev 1.x, refer to SharePoint link."
-            },
-            {
-                "Requirement": "Hardware Reliability",
-                "SharePoint_Owner": "DVAR SharePoint",
+                "SharePoint_Owner": "DVAR Sharepoint",
                 "Owner": "Foo, Shiang Jin",
-                "Instruction": "This product needs to meet Reliability Requirement doc rev 1.x, refer to SharePoint link."
+                "Instruction": "Program Lead must insert a one-liner in PRD referencing the Reliability Requirement doc and SharePoint link."
             }
         ],
         "Categorization_Data": {
@@ -77,8 +73,13 @@
                 {
                     "Category": "Design/UI",
                     "Functions": [
-                        "Marketing",
                         "GXD"
+                    ]
+                },
+                {
+                    "Category": "Quality",
+                    "Functions": [
+                        "Quality"
                     ]
                 },
                 {
@@ -110,9 +111,16 @@
                     ]
                 },
                 {
-                    "Category": "Safety & Regulatory",
+                    "Category": "Tech Reg",
                     "Functions": [
                         "Tech Reg"
+                    ]
+                },
+                {
+                    "Category": "Safety & Regulatory",
+                    "Functions": [
+                        "Marketing",
+                        "Product Steward"
                     ]
                 },
                 {
@@ -185,13 +193,16 @@
                 "USB Certification",
                 "WeChat Print",
                 "Wifi",
-                "Others"
+                "Others",
+                "Must",
+                "High Want",
+                "Want"
             ]
         },
         "Threshold_Target_Guidelines": {
-            "Challenge": "It is difficult for Quality and Marketing to write technical specs or values for certain requirements.",
-            "Past_Practice": "Use of vague statements such as 'equal or better than predecessor'.",
-            "Proposal": "State what the customer expects instead of vague statements. Targets and thresholds must be clear and measurable.",
+            "Challenge": "It's difficult for Quality and Marketing to write technical specs or values for subjective requirements.",
+            "Past_Practice": "Use of vague statements like 'equal or better than predecessor'.",
+            "Proposal": "State what the customer expects instead of vague statements. Define measurable Target and Threshold values.",
             "Example_Case_1_Tire_Mark": {
                 "Requirement_From_Customer_Perspective": "No visible tire mark on photo media.",
                 "Target_Goal": "No visible tire mark.",
